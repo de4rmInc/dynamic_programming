@@ -11,7 +11,7 @@ namespace MinCountOfCoins
         static int[][] MinCountOfCoins(int[] values, int sum)
         {
             int[][] min = new int[sum + 1][];
-            int maxValue = values.Max()+1;
+            int maxValue = values.Max() + 1;
             for (int i = 0; i < min.Length; i++)
             {
                 min[i] = new int[maxValue];
