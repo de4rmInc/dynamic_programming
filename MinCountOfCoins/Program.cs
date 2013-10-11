@@ -17,7 +17,6 @@ namespace MinCountOfCoins
                 min[i] = new int[maxValue];
                 min[i][0] = int.MaxValue;
             }
-            Console.WriteLine("HAHAHAHAHA");
             min[0][0] = 0;
             for (int i = 1; i < min.Length; i++)
                 for (int j = 0; j < values.Length; j++)
